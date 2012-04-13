@@ -190,6 +190,7 @@ run_npm "install"
 run_npm "rebuild"
 echo "Dependencies installed" | indent
 
+make install-dirs
 $BUILD_DIR/bin/build
 
 # repack cache with new assets
