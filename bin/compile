@@ -190,7 +190,6 @@ run_npm "install"
 run_npm "rebuild"
 echo "Dependencies installed" | indent
 
-$BUILD_DIR/bin/build
 
 # repack cache with new assets
 if [ -d $CACHE_TARGET_DIR ]; then
